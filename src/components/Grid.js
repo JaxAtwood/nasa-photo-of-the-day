@@ -17,10 +17,14 @@ export default function Grid() {
 
     return (
         <div className="container">
-            <Card 
+            <Card
+            key={nasaData.id}
+            id={nasaData.id}
+            title={nasaData.title}
+            date={nasaData.date}
+            explanation={nasaData.explanation}
+            url={nasaData.url}
             />
-                );
-            })}
         </div>
     );
 }
