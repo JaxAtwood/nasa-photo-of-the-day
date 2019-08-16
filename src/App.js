@@ -1,15 +1,17 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
+import Grid from "./components/Grid";
+
 
 function App() {
   return (
     <div className="App">
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        Nasa Photo of the Day Application!
       </p>
+      <Grid />
     </div>
   );
-}
+};
 
 export default App;
